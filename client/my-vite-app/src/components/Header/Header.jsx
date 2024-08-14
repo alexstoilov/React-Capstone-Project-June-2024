@@ -1,8 +1,8 @@
-import React from "react";
+import "./Header.css";
 
 function Header() {
   return (
-    <header>
+    <header className="Header">
       <nav>
         <h2>Passion Connect</h2>
         <ul>

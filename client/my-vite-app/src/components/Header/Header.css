@@ -1,0 +1,29 @@
+.Header {
+  background-color: black;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+}
+
+.Header nav {
+  display: inline-block;
+}
+
+.Header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.Header a {
+  color: #61dafb;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.Header a:hover {
+  text-decoration: underline;
+}
